@@ -407,7 +407,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 24px;
 }
 
 .socials-link {
@@ -422,7 +422,7 @@ body {
 }
 
 .socials-icon {
-    fill: var(--color-cloud)    ;
+    fill: currentColor;
 }
 
 .socials-link:hover,
@@ -609,6 +609,7 @@ body {
 }
 
 
+
 .social-title {
     margin-bottom: 16px;
     font-weight: 500;
@@ -619,9 +620,9 @@ body {
     color: #FFFFFF;
 }
 
-/* .footer-right-side .socials-icon{
-    fill: var(--color-cloud);
-} */
+.footer-right-side .socials{
+    gap: 16px;
+}
 
 .footer-right-side .socials-icon {
     fill: currentColor;
