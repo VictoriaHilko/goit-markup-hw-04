@@ -349,6 +349,10 @@ body {
     background-color: #F4F4FD;
 }
 
+.team-container{
+    padding: 32px 0;
+}
+
 .team .header-title {
     margin-bottom: 72px;
 }
@@ -367,14 +371,12 @@ body {
 }
 
 .person-card {
-    /* display: inline;
-    width: calc((100% - 72px) / 4); */
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
     padding-right: 16px;
 
-    border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px; 
 }
 
 .team-person {
