@@ -530,6 +530,7 @@ body {
 
 .customers .header-title {
     margin-bottom: 72px;
+    line-height: 1.1;
 }
 
 .customers-list {
@@ -547,8 +548,8 @@ body {
     width: 168px;
     height: 88px;
 
-    color: var(--color-light-slate);
-    border: 1px solid var(--color-slate);
+    color: #afb1b8;
+    border: 1px solid #8e8f99;
     border-radius: 4px;
 
 }
