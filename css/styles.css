@@ -414,6 +414,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 16px;
     background-color: var(--color-iris);
     border-radius: 50%;
     color: var(--color-white);
@@ -608,6 +609,7 @@ body {
     gap: 120px;
 }
 
+
 .social-title {
     margin-bottom: 16px;
     font-weight: 500;
@@ -618,6 +620,9 @@ body {
     color: #FFFFFF;
 }
 
+.footer-right-side .socials-icon{
+    fill: var(--color-cloud);
+}
 
 .footer-right-side .socials-icon {
     fill: currentColor;
