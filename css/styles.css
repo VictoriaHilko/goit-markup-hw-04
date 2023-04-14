@@ -407,14 +407,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    gap: 16px;
 }
 
 .socials-link {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 16px;
     background-color: var(--color-iris);
     border-radius: 50%;
     color: var(--color-white);
@@ -423,7 +422,7 @@ body {
 }
 
 .socials-icon {
-    fill: #f4f4fd;
+    fill: var(--color-cloud)    ;
 }
 
 .socials-link:hover,
@@ -620,9 +619,9 @@ body {
     color: #FFFFFF;
 }
 
-.footer-right-side .socials-icon{
+/* .footer-right-side .socials-icon{
     fill: var(--color-cloud);
-}
+} */
 
 .footer-right-side .socials-icon {
     fill: currentColor;
