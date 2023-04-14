@@ -555,7 +555,7 @@ body {
 }
 
 .customers-icon {
-    fill: currentColor;
+    fill: var(--color-cloud);
 }
 
 .customers-link:hover,
@@ -604,6 +604,7 @@ body {
 
 .footer-container {
     display: flex;
+    align-items: baseline;
     gap: 120px;
 }
 
@@ -611,10 +612,10 @@ body {
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 
-    color: var(--color-white);
+    color: #FFFFFF;
 }
 
 
