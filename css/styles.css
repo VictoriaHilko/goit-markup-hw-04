@@ -556,7 +556,7 @@ body {
 }
 
 .customers-icon {
-    fill: var(--color-cloud);
+    fill: currentColor;
 }
 
 .customers-link:hover,
@@ -626,7 +626,7 @@ body {
 }
 
 .footer-right-side .socials-icon {
-    fill: currentColor;
+    fill: var(--color-cloud);
 }
 
 .footer-right-side .socials-link:hover,
