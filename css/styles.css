@@ -422,7 +422,7 @@ body {
 }
 
 .socials-icon {
-    fill: currentColor;
+    fill: var(--color-cloud);
 }
 
 .socials-link:hover,
