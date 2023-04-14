@@ -415,11 +415,6 @@ body {
     gap: 24px;
 }
 
-.socials-items{
-    width: 44px;
-    height: 44px;
-}
-
 .socials-link {
     display: flex;
     justify-content: center;
@@ -427,8 +422,8 @@ body {
     background-color: var(--color-iris);
     border-radius: 50%;
     color: var(--color-white);
-    width: 44px;
-    height: 44px;
+    width: 40px;
+    height: 40px;
 }
 
 .socials-icon {
